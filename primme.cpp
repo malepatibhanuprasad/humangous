@@ -2,7 +2,7 @@
 #include<math.h>
 using namespace std;
 int main(){
-int a,b,fac=1;
+int a,b,fac;
 cin>>a;
 cin>>b;
 for(int j=a;j<=b;j++){
@@ -12,7 +12,8 @@ for(int i=2;i<=j-1;i++){
         fac=0;
         break;}
 }
-if(fac==1){cout<<j;}
+if(fac==1){if(j!=1){cout<<j;}}
 }
 return 0;
 }
+
