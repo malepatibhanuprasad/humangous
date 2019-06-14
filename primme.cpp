@@ -15,4 +15,3 @@ if(fac==1){if(j!=1){cout<<j<<" ";}}
 }
 return 0;
 }
-}
