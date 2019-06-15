@@ -8,7 +8,7 @@ for(int i=0;i<n;i++){
 }
 int t=a[0];
 for(int i=0;i<n;i++){
-    if(a[i]>t)
+    if(a[i]<t)
         t=a[i];
  }
 cout<<t;
