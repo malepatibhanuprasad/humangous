@@ -1,0 +1,8 @@
+ah=int(input())
+am=int(input())
+bh=int(input())
+bm=int(input())
+ah=(ah-bh)
+am=(am-bm)
+print (ah,end=' ')
+print (am,end=' ')
