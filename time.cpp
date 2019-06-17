@@ -8,7 +8,7 @@ int main(){
         time=time/60;
     }
     else {hour=time;
-    time=0;33
+    time=0;
     }
     cout<<time<<" "<<hour;
 return 0;
