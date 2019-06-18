@@ -3,12 +3,12 @@
 #include<string.h>
 int main(){
     char s[100];
-    int n;
+    int f;
     gets(s);
-    scanf("%d",&n);
+    scanf("%d",&f);
     while(n!=0){
         printf("%s\n",s);
-        n--;
+        f--;
     }
 return 0;
 }
