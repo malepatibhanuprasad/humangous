@@ -6,7 +6,7 @@ int main(){
     int f;
     gets(s);
     scanf("%d",&f);
-    while(n!=0){
+    while(f!=0){
         printf("%s\n",s);
         f--;
     }
