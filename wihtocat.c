@@ -13,7 +13,6 @@ for(i=0;i<n1;i++){
         c[i]=a[i];
     }
 }
-printf("%d\n%d\n",i,n2);
 for(j=i;j<i+n2;j++){
     if(b[k]!='\0'){
         c[j]=b[k];
