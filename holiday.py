@@ -1,7 +1,7 @@
 holi=input()
-if(holi=='saturday'):
+if(holi=='Saturday'):
   print ("yes")
-elif (holi=='sunday'):
+elif (holi=='Sunday'):
   printf("yes")  
 else:
   print ("no")
