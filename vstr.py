@@ -1,6 +1,6 @@
 a=int(input())
 st=input(a)
-v="aeiou"
+v="aeiouAEIOU"
 string=""
 for i in st:
   if i not in v:
