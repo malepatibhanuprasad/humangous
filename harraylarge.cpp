@@ -1,21 +1,22 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n,i,j,a[100],temp,sum=0;
+    int n,i,j;
+    int b[100],temp,s=0;
     cin>>n;
-    for(i=0;i<n;i++){cin>>a[i];}
+    for(i=0;i<n;i++){cin>>b[i];}
     for(i=0;i<n;i++){
         for(j=i;j<n;j++){
-            if(a[i]<a[j]){
-                temp=a[i];
-                a[i]=a[j];
-                a[j]=temp;
+            if(b[i]<b[j]){
+                temp=b[i];
+                b[i]=b[j];
+                b[j]=temp;
             }
         }
     }
     for(i=0;i<n;i++){
-            sum=sum*10+a[i];
+            s=s*10+b[i];
     }
-    cout<<sum;
+    cout<<s;
 return 0;
 }
