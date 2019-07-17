@@ -9,7 +9,7 @@ for(i=0,j=1;i<=n;i=i+2,j=j+2){
         if((a[i]%2)!=0){
             printf("%d ",a[i]);
         }
-        if(j==n){ break;}
+        if(j>=n){ break;}
         else{
         if((a[j]%2)==0){
         printf("%d ",a[j]);
