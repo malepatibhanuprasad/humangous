@@ -13,7 +13,7 @@ for(i=0;i<n;i++){
         }
     }
 }
-if(min>=0)
+if(min<=n)
     printf("%d",a[min]);
 else
     printf("unique");
