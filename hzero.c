@@ -8,7 +8,7 @@ for(i=0;i<n;i++)
 for(i=0;i<n;i++){
     for(j=i+1;j<n;j++){
         if((abs(a[i]+a[j]))<min){
-            min=abs(a[i]+a[j];
+            min=abs(a[i]+a[j]);
             c=i;
             d=j;
          }
